@@ -72,13 +72,13 @@ This setup ensures **secure communication** between the client and the server us
 
 # Task3 - AI-Powered Threat Detection
 
-The **`BERT Model`** folder contains the following key files:  
+## The **`BERT Model`** folder contains the following key files:  
 
 - **`Test_Bertmodel.ipynb`** (Google Colab) – Notebook for testing the trained model.  
 - **`Train_Bert_Model.ipynb`** (Google Colab) – Notebook for training the BERT model.  
 - Additional files required for training and evaluation.  
 
-### Model Details  
+#### Model Details  
 
 - Trains the **pretrained `bert-base-uncased` model** to classify URLs as **malicious (1) or safe (0)**.  
 - Analyzes **domains, paths, query parameters, and IP patterns** to enhance classification accuracy.  
@@ -88,7 +88,7 @@ The **`BERT Model`** folder contains the following key files:
   - **Legitimate URLs**  
   - **Custom datasets** for robust model training.  
 
-### Testing the Model  
+#### Testing the Model  
 
 The **`Test_Bertmodel.ipynb`** notebook uses a Flask API to serve the BERT model for testing and inference.  
 - **Model Loading & Testing** – It loads the model (bert_model2.pth), gets post requests, analyzes the URLs, and returns predictions.
@@ -97,7 +97,7 @@ The **`Test_Bertmodel.ipynb`** notebook uses a Flask API to serve the BERT model
 - In Google Colab, models should be stored under `/content/`.  
 - Use a **GPU** while running the model, as it has been trained on GPU for optimized performance.
 
-# Random Forest Model  
+## Random Forest Model  
 
 The **`Random Forest Model`** folder contains the **`randforest.ipynb`** notebook along with datasets.  
 
