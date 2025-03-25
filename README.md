@@ -7,7 +7,7 @@ git clone
 git pull
 git lfs pull
 ```
-Project
+Tasks
 │   .gitattributes
 │   bert_model2.pth
 │   LICENSE
