@@ -2,13 +2,13 @@
 This Assignment consists of 4 Tasks
 
 # Task1 - URL Threat Analysis
-This task has one file:  
+This task consists of a single file:  
 
-- **`Task1.py`** 
-- This Python script analyzes URLs for potential threats like phishing, malware, or inappropriate content by leveraging multiple security APIs.
-- It provides a comprehensive safety assessment by combining results from Google Safe Browsing, VirusTotal, and IPQualityScore APIs to average out risk values and decrease the number of false positives.
-- It also blocks URLs with inappropriate keywords by checking from a list of blocked words.
-- This script does not contain a valid API key (all keys have been replaced with ~), Please replace the placeholders with a valid API key to enable functionality.
+### **`Task1.py`**  
+- This Python script uses multiple security APIs to analyze URLs for potential threats, including phishing, malware, and inappropriate content.  
+- Aggregates results from **Google Safe Browsing, VirusTotal, and IPQualityScore** to provide a comprehensive risk assessment and minimize false positives.  
+- Blocks URLs containing inappropriate keywords by cross-referencing a predefined list of restricted terms.  
+- **Note:** This script does not contain a valid API key (all keys have been replaced with `~`). Replace the placeholders with a valid API key to enable functionality.  
 
 
 # Task2 - Data Security & Encryption
