@@ -21,7 +21,8 @@ This task has two files:
   - Uses an **AES key** for encryption.  
   - To enhance security, the AES key is encrypted with the **server’s public RSA key**.  
   - This ensures that only the server can decrypt the AES key using its **private RSA key**.  
-  - The client only needs the **server’s public key** for secure encryption.  
+  - The client only needs the **server’s public key** for secure encryption.
+  - The client sends the  data using a post request to one of the server's endpoints (in this case) after verifying the server's certificate 
 
 - **`server.py`**  
   - Decrypts the AES key using its **private RSA key**.  
