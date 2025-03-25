@@ -1,6 +1,12 @@
 # Secure_AI-Powered_Content_Filtering_System
 This Assignment consists of 4 Tasks
 
+To get the contents of this repository, please run the following commands
+```bash
+git clone
+git pull
+git lfs pull
+```
 Project
 │   .gitattributes
 │   bert_model2.pth
@@ -35,6 +41,8 @@ Project
     └───API
             client.py
             Flaskapp.py
+
+
 
 
 # Task1 - URL Threat Analysis
@@ -115,4 +123,11 @@ The **`Random Forest Model`** folder contains the **`randforest.ipynb`** noteboo
 - **API Endpoint** – Provides a POST endpoint (`/check`) that accepts a URL and returns its risk classification.
 - **Client-Server Interaction** – The `client.py` script sends a URL to the Flask-based API for risk assessment. It waits for the API to process the request and continuously checks for a valid JSON response before displaying the final risk classification sent by the api.
 
+## CLI Tool
+- A command-line tool to block or unblock unsafe URLs.  
+- **Hosts File Modification** – Edits the system's hosts file to redirect unsafe URLs to `127.0.0.1`.  
+- **Automatic URL Handling** – Supports both `www.` and non-`www.` versions of a domain.  
+- **Administrator Privileges Required** – Needs elevated permissions to modify system files.  
+- **Error Handling** – Detects permission issues and prevents duplicate entries.  
+- **Cross-Platform Support** – Works on both Windows and Linux.  
 
