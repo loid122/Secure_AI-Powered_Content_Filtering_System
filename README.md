@@ -63,7 +63,8 @@ This task has two files:
   - The client only needs the **server’s public key** for secure encryption.
   - The client sends the  data using a post request to one of the server's endpoints (in this case) after verifying the server's certificate 
 
-- **`server.py`**  
+- **`server.py`**
+  - Uses Flask as backend (in this case) to accept the requests sent by the client
   - Decrypts the AES key using its **private RSA key**.  
   - Uses the decrypted AES key to **decrypt the ciphertext** and retrieve the original user data.  
 
