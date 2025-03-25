@@ -71,8 +71,8 @@ This task has two files:
 This setup ensures **secure communication** between the client and the server using a combination of **AES-GCM** and **RSA encryption**.  
 
 # Task3 - AI-Powered Threat Detection
-
-## The **`BERT Model`** folder contains the following key files:  
+## BERT Model
+The **`BERT Model`** folder contains the following key files:  
 
 - **`Test_Bertmodel.ipynb`** (Google Colab) – Notebook for testing the trained model.  
 - **`Train_Bert_Model.ipynb`** (Google Colab) – Notebook for training the BERT model.  
