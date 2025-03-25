@@ -96,11 +96,11 @@ The **`Test_Bertmodel.ipynb`** notebook uses a Flask API to serve the BERT model
 - Ensure it is placed in the correct directory.  
 - In Google Colab, models should be stored under `/content/`.  
 - Use a **GPU** while running the model, as it has been trained on GPU for optimized performance.
-
+- It showed an accuracy of **90.25%**
 ## Random Forest Model  
 
 The **`Random Forest Model`** folder contains the **`randforest.ipynb`** notebook along with datasets.  
 
 - **Feature Engineering** – The model is trained on numerical data (integers and floats) derived from various URL properties, such as path length, domain length, number of special characters, etc.  
 - **Feature Importance Analysis** – After training, the model generates an importance table highlighting the most significant features for classifying URLs as malicious or legitimate.  
-
+- Showed an accuracy of **0.9956** during training
