@@ -3,7 +3,7 @@ This Assignment consists of 4 Tasks
 
 To get the contents of this repository, please run the following commands
 ```bash
-git clone
+git clone https://github.com/loid122/Secure_AI-Powered_Content_Filtering_System.git
 git pull
 git lfs pull
 ```
