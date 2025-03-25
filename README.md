@@ -30,7 +30,6 @@ Tasks
 │   │       urlhaus.abuse.ch.txt
 │   │
 │   └───Random Forest Model
-│           .gitattributes
 │           legitimate-urls.csv
 │           phishing-urls.csv
 │           PhiUSIIL_Phishing_URL_Dataset.csv
@@ -38,9 +37,12 @@ Tasks
 │           urlhaus.abuse.ch.txt
 │
 └───Task4
-    └───API
-            client.py
-            Flaskapp.py
+    ├───API
+    │       client.py
+    │       Flaskapp.py
+    │
+    └───CLI Tool
+            tool.py
 ```
 
 
