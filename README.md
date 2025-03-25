@@ -6,6 +6,7 @@ To get the contents of this repository, please run the following commands
 git clone https://github.com/loid122/Secure_AI-Powered_Content_Filtering_System.git
 cd Secure_AI-Powered_Content_Filtering_System
 ```
+```plaintext
 Tasks
 │   .gitattributes
 │   bert_model2.pth
@@ -40,7 +41,7 @@ Tasks
     └───API
             client.py
             Flaskapp.py
-
+```
 
 
 
