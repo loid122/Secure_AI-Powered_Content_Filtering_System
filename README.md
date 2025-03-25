@@ -70,7 +70,8 @@ This task has two files:
 This setup ensures **secure communication** between the client and the server using a combination of **AES-GCM** and **RSA encryption**.  
 
 # Task3 - AI-Powered Threat Detection
-This Task has 2 folders:
+This Task has 2 folders: 
+
 The **`BERT Model`** folder contains the following key files:  
 
 - **`Test_Bertmodel.ipynb`** (Google Colab) – Notebook for testing the trained model.  
@@ -87,10 +88,13 @@ The **`BERT Model`** folder contains the following key files:
   - **Legitimate URLs**  
   - **Custom datasets** for robust model training.  
 
-### Running the Model  
+### Testing the Model  
 
-To use the trained model (`bert_model2.pth`):  
-
+The **`Test_Bertmodel.ipynb`** notebook uses a Flask API to serve the BERT model for testing and inference.  
+- **Model Loading & Testing** – It loads the model (bert_model2.pth), gets post requests, analyzes the URLs, and returns predictions.
+- We can use python's requests module to send the URL in JSON format to check if its malicious or not
 - Ensure it is placed in the correct directory.  
 - In Google Colab, models should be stored under `/content/`.  
-- Use a **GPU** while running the model, as it has been trained on GPU for optimized performance.  
+- Use a **GPU** while running the model, as it has been trained on GPU for optimized performance.
+
+
