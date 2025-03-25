@@ -97,7 +97,7 @@ The **`Test_Bertmodel.ipynb`** notebook uses a Flask API to serve the BERT model
 - In Google Colab, models should be stored under `/content/`.  
 - Use a **GPU** while running the model, as it has been trained on GPU for optimized performance.
 
-# Overview – Random Forest Model  
+# Random Forest Model  
 
 The **`Random Forest Model`** folder contains the **`randforest.ipynb`** notebook along with datasets.  
 
